@@ -1,0 +1,34 @@
+.table {
+    border: 1px solid black;
+    width: 100%;
+}
+.table tr td {
+    border: 1px solid black;
+    text-align: center;
+}
+.table th {
+    border: 1px solid black;
+    text-align: center;
+}
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+.tableBlock {
+    width: 50%;
+}
+.diagrams {
+    margin-top: 40px;
+}
+.cage {
+    margin-top: 20%;
+    display: inline-block;
+}
+th {
+    cursor: pointer;
+}
+.massageDiagram {
+    text-align: left;
+}

@@ -1,0 +1,51 @@
+<html>
+<link>
+<title>Advance</title>
+<meta charset="utf-8">
+<link rel="stylesheet" type="text/css" href="style.css">
+
+</head>
+<body>
+
+<input type="text" class="kilograms" placeholder="Введите кг помидоров..."/>
+<br>
+<br>
+<input type="text" class="price" placeholder="Введите цену..."/>
+<br>
+<br>
+<input type="text" class="sort" placeholder="Введите сорт..."/>
+<br>
+<br>
+<input type="submit" class="add"/>
+<br>
+<br>
+<div class="wrapper">
+<div class="tableBlock">
+    <table class="table">
+    <th>
+        №
+    </th>
+    <th>
+        Дата
+    </th>
+        <th  onclick="sortTd('forKg')();">
+            Цена за кг
+        </th>
+        <th onclick="sortTd('tdKg')();">
+            килограмы
+        </th>
+    <th onclick="sortTd('priceTotal')();" >
+        Прибыль
+    </th>
+    <th>
+        Сорт
+    </th>
+</table>
+</div>
+    <p class="massageDiagram">Диаграма Цены за кг (по умолчанию)</p>
+    <div class="diagrams"></div>
+</div>
+<script src="script.js"></script>
+
+</body>
+</html>
